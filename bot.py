@@ -2,7 +2,7 @@ from config import token
 import telepot
 import weather
 
-telepot.api.set_proxy('http://3.0.197.245:80')
+#telepot.api.set_proxy('http://3.0.197.245:80')
 bot = telepot.Bot(token)
 
 def reply(text, chat_id):
